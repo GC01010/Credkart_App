@@ -27,15 +27,15 @@ def driver_setup(request):
 
 
 
-# from pageObjects.login_path import Login_Page_Class
-# @pytest.fixture
-# def login_ficture(driver_setup):
-#      driver=driver_setup
-#      driver.get("https://automation.credence.in/login")
-#      lp=Login_Page_Class(driver)
-#      lp.login_email("Credencetest@test.com")
-#      lp.login_password("Credence@123")
-#      lp.login_button()
-#      return driver
+from pageObjects.login_path import Login_Page_Class
+@pytest.fixture
+def login_ficture(driver_setup):
+     driver=driver_setup
+     driver.get("https://automation.credence.in/login")
+     lp=Login_Page_Class(driver)
+     lp.login_email("Credencetest@test.com")
+     lp.login_password("Credence@123")
+     lp.login_button()
+     return driver
 
 
