@@ -4,7 +4,7 @@
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/Automation_testing_new" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.13 (Credkart)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.13 (Orange_HRM_Automaton)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>
