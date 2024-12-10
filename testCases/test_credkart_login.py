@@ -1,4 +1,4 @@
-from pageObjects.login_path import Login_Page_Class
+from pageObjects.Login_path import Login_Page_Class
 from utilities.Readdata import Read_data
 
 class Test_Credkart_login002:

@@ -1,5 +1,5 @@
 import time
-from pageObjects.cart_amount_path import Cart_amount_path
+from pageObjects.Cart_amount_path import Cart_amount_path
 from utilities.Excelfile import Excel_file
 
 class Test_cart_check():

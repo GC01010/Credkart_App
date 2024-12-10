@@ -27,7 +27,7 @@ def driver_setup(request):
 
 
 
-from pageObjects.login_path import Login_Page_Class
+from pageObjects.Login_path import Login_Page_Class
 @pytest.fixture
 def login_ficture(driver_setup):
      driver=driver_setup

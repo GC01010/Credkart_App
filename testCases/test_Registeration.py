@@ -1,6 +1,6 @@
-from pageObjects.registeation_path import Registeration_path_class
+from pageObjects.Registeation_path import Registeration_path_class
 from faker import Faker
-from pageObjects.login_path import Login_Page_Class
+from pageObjects.Login_path import Login_Page_Class
 
 class Test_Registeration_class:
     def test_registeration(self,driver_setup):

@@ -1,5 +1,5 @@
 import time
-from pageObjects.checkout_path import Test_Checkout_path
+from pageObjects.Checkout_path import Test_Checkout_path
 
 class Test_checkout:
 
